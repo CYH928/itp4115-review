@@ -1,3 +1,4 @@
+# Set cookie
 ```python
 from flask import Flask, render_template
 app = Flask(__name__)
@@ -13,3 +14,9 @@ How to implement Cookie in Python? please write down a code sample for a cookie 
 ### Solve: 
 1 day = 60 sec * 60 min * 24 hours \
 **86400s** = 60 * 60 * 24
+
+---
+# Delete Cookie
+```python
+app.setcookie('loginname', '', expires=0)
+```
