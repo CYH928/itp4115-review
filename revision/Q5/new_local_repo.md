@@ -1,0 +1,3 @@
+```shell
+git init microblog
+```
