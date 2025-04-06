@@ -18,9 +18,9 @@ D - Deleted files
 
 
 ## Repository
-`git init` <project_name>: Create a new repository
+`git init <project_name>`: Create a new repository
 
-`git clone` <URL>: From GitHub sync the updated repository to local (after can pull/push)
+`git clone <URL>`: From GitHub sync the updated repository to local (after can pull/push)
 <!-- `git clone` <URL> <folder_name>: Clone GitHub repository to local add named the folder -->
 
 
@@ -64,7 +64,7 @@ D - Deleted files
 
 
 ## Merge
-#### !!! Before a merged branch must checkout to that merge branch (master/main) first.
+##### !!! Before a merged branch must checkout to that merge branch (master/main) first.
 `git merge <merged_branch>`: Which branch merges with the current branch
 
 
@@ -98,6 +98,7 @@ commit_id AKA commit hash (include seven characters [a-z,0-9])
 `git revert HEAD --no-edit: Skip add commit message use default revert message -->
 
 `git reset <commit_id>`: Reset to that commit
+
 `git reset <file>`: Remove from staging back to the working directory and don't commit to the local repository (Staging -> Working directory)
 <!-- `git reset --soft HEAD~1: 	Remove the local repository commit snapshot (Local repository)
 `git reset HEAD~1: 		Cancel the `git commit + `git add (Local repository + Staging)
